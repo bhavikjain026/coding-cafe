@@ -1,0 +1,87 @@
+  307  code notes.md
+  308  cd ~coding-cafe
+  309  cd ~ coding-cafe
+  310  ls coding-cafe/week02
+  311  cd week02
+  312  ls coding-cafe/week02
+  313  ls week02
+  314  ls coding-cafe/week02
+  315  cd ..
+  316  ls coding-cafe/week02
+  317  cd ..
+  318  clear
+  319  ls coding-cafe/week02
+  320  cp README.md README-backup.md
+  321  cd ~ coding-cafe
+  322  cd week02
+  323  cp README.md README-backup.md
+  324  cd ..
+  325  cp README.md README-backup.md
+  326  cd ..
+  327  cp README.md README-backup.md
+  328  mv README-backup.md week01/
+  329  cd ~ coding-cafe
+  330  cp README.md README-backup.md
+  331  mv README-backup.md week01/
+  332  touch README.md
+  333  cp README.md README-backup.md
+  334  mv README-backup.md week01/
+  335  cd week02
+  336  touch notes.md
+  337  cp README.md README-backup.md
+  338  cd ..
+  339  cp README.md README-backup.md
+  340  mv README-backup.md week01/
+  341  cd week01
+  342  cd ~\n
+  343  clear
+  344  pwd
+  345  ls
+  346  ls - a
+  347  pwd
+  348  ls
+  349  ls -a
+  350  ls -l
+  351  cd ~
+  352  mkdir coding-cafe\n
+  353  cd coding-cafe\n
+  354  mkdir week01\n
+  355  mkdir week02\n
+  356  touch README.md\n
+  357  touch week02/notes.md\n
+  358  ls\n
+  359  cd ~\n
+  360  ls coding-cafe/week02\n
+  361  ls -R coding-cafe
+  362  code ~/coding-cafe/week02/notes.md
+  363  cd ~/coding-cafe\n
+  364  cp README.md README-backup.md\n
+  365  mv README-backup.md week01/\n
+  366  cd week01\n
+  367  mv README-backup.md old-readme.md\n
+  368  ls\n
+  369  rm old-readme.md\n
+  370  ls
+  371  cd ~/coding-cafe
+  372  echo $PATH
+  373  echo $PATH | tr ':' '\n' | wc -l
+  374  which python3
+  375  which pip
+  376  which ls
+  377  pyton3
+  378  python3 -m venv .venv
+  379  ls
+  380  ls -a
+  381  source .venv/bin/activate
+  382  which python3
+  383  pip list
+  384  pip install requests
+  385  pip list
+  386  deactivate
+  387  which python3
+  388  man ls
+  389  man man
+  390  cd cod
+  391  history
+  392  python3
+  393  cd ~/coding-cafe\n

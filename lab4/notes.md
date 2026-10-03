@@ -23,3 +23,21 @@ It printed the branch and short hash with the message, `[main (root-commit) 628f
 
 **Q8. What are the first seven characters of a commit called, and what are they for?**
 They are the short commit hash (an abbreviated SHA-1 hash, e.g. `628fe4e`). The hash is a unique ID for that commit, so you can refer to it in commands like `git show 628fe4e` or to go back to that version.
+
+**Q9. What are the four steps of the loop you just did twice?**
+1. Edit (change or create files in the working directory). 2. Check with `git status`. 3. Stage with `git add`. 4. Commit with `git commit -m "message"` (and check `git log`).
+
+**Q10. Why does README.md get a special name and a special place?**
+`README.md` in the top folder is the conventional "start here" file: GitHub automatically displays it on the repository's front page, and anyone opening the project knows to read it first. A file called `notes.md` buried in a folder wouldn't be found or shown automatically.
+
+**Q11. What did `gh auth login` do that means you won't be asked for a password when you push?**
+It logged me in to GitHub through the browser and saved an access token on my laptop, then set itself up as Git's credential helper. When I push, Git asks `gh` for that token instead of asking me for a password (GitHub no longer accepts account passwords for Git anyway).
+
+**Q12. What is showing on the repository's front page, and why that file?**
+The file list and, below it, my `README.md` rendered as formatted text (heading, bold name and roll number, bullet list). GitHub automatically renders the README in the top folder because it's meant to describe the project to visitors.
+
+**Q13. Did pushing change your local history in any way?**
+No. `git log --oneline` shows the same commits with the same hashes. Pushing only copies commits to GitHub; the only local change is that Git now records `origin/main` as tracking my `main` branch.
+
+**Q14. Difference between a private repository and a repository not existing on GitHub at all?**
+A private repository exists on GitHub with a full copy of my history, but only I and the collaborators I invite (the TAs) can see it. If it didn't exist on GitHub, the code would only be on my laptop, so nobody else could ever access it and there'd be no backup.
